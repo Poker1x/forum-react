@@ -1,0 +1,31 @@
+@import '~antd/dist/antd.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #eeeeee;
+}
+
+input,textarea {
+    width: 100%;
+    padding: 10px;
+}
+
+input:focus {
+    outline: none;
+}
+textarea:focus {
+    outline: none;
+}
+i {
+    font-size: 20px;
+    font-weight: bold;
+}
